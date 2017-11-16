@@ -1,0 +1,5 @@
+<import src="../../template/logo/logo.wxml"/>
+<scroll-view class="aboutUs">
+    关于我们
+    <template is="logo"/>
+</scroll-view>

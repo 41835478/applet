@@ -1,0 +1,13 @@
+.feedback  textarea {
+  height: 400rpx;
+  background: #fff;
+  width: auto;
+  font-size: 30rpx;
+  padding: 20rpx;
+}
+.feedback button {
+  width:700rpx;
+  margin-top:30rpx;
+  height:80rpx;
+  line-height:80rpx;
+}

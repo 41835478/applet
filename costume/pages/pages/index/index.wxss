@@ -1,0 +1,72 @@
+/**index.wxss**/
+.mainWrap swiper {
+  width: 100%;
+  height: 360rpx;
+}
+.mainWrap .sort {
+  height: 100rpx;
+  border-bottom: 1px solid #EBEBEB;
+  display: flex;
+  font-size: 30rpx;
+  justify-content: center;
+  line-height: 100rpx;
+  text-align: center;
+  background: #fff;
+}
+.mainWrap .sort .item {
+  flex: 1;
+  color: #9b9b9b;
+}
+.mainWrap .sort .active_pro {
+  color: #000;
+}
+.mainWrap .subTitle {
+  height: 100rpx;
+  background: #fff;
+  text-align: center;
+}
+.mainWrap .subTitle text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.mainWrap .subTitle .line {
+  height: 4rpx;
+  width: 110rpx;
+  background: #555555;
+  margin: 48rpx 0;
+}
+.mainWrap .subTitle .symbol {
+  font-size: 60rpx;
+  width: 50rpx;
+}
+.mainWrap .subTitle .word {
+  padding: 0 60rpx;
+}
+.mainWrap .proList {
+  padding: 20rpx 30rpx;
+  background: #fff;
+}
+.mainWrap .proList navigator {
+  display: inline-flex;
+}
+.mainWrap .proList navigator:nth-child(even) {
+  margin-left: 20rpx;
+}
+.mainWrap .productCont {
+  height: 520rpx;
+  background: #fff;
+  padding: 20rpx;
+  margin-top: 20rpx;
+}
+.mainWrap .productCont image {
+  height: 400rpx;
+  width: 100%;
+}
+.mainWrap .productCont view text {
+  display: inline-flex;
+  color: #DF6466;
+  font-size: 26rpx;
+}
+.mainWrap .productCont view .grey {
+  text-decoration: line-through;
+}

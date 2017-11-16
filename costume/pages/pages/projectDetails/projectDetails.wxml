@@ -1,0 +1,17 @@
+<import src="../../template/product/product.wxml"/>
+<scroll-view class="projectDetails">
+  <view class="bannerCont bannerNew">
+    <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg"></image>
+  </view>
+  <view class="project">
+    <view class="title">夏日美裙</view>
+    <view class="content">主题描述</view>
+  </view>
+  <view class="proList">
+    <block wx:for="{{proList}}" wx:key="">
+      <navigator url="/pages/pages/productDetails/productDetails">
+        <template is="product" data="{{item}}"/>
+      </navigator>
+    </block>
+  </view>
+</scroll-view>

@@ -1,0 +1,74 @@
+.productDetails {
+    background: #F2F2F2;
+}
+.productDetails .bannerCont {
+    width: 100%;
+    height: 512rpx;
+    padding: 0;
+}
+.bannerCont swiper {
+    width: 100%;
+    height: 100%;
+}
+.productDetails .priceCont {
+    width: 100%;
+    height: 140rpx;
+    text-align: center;
+    background: #fff;
+}
+.productDetails .priceCont .title {
+    padding: 20rpx 0 6rpx;
+}
+.productDetails .priceCont .price {
+    color: #CD4C50;
+}
+.productDetails .describe {
+    min-height: 260rpx;
+    background: #fff;
+    margin-top: 20rpx;
+    padding: 20rpx;
+}
+.productDetails .describe .title {
+    text-align: center;
+    margin: 16rpx 0 20rpx;
+}
+.productDetails .describe .content {
+   color: #B7B7B7;
+   font-size: 28rpx;
+}
+.bottomCont {
+    width: 100%;
+    height: 100rpx;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.bottomCont view {
+    flex: 1;
+    text-align: center;
+    line-height: 100rpx;
+    border-right: 1px solid #ccc;
+}
+.bottomCont view:nth-child(3),
+.bottomCont view:nth-child(4) {
+    flex: 2;
+    border: none;
+    font-size: 30rpx;
+    color: #DC635F;
+}
+.bottomCont view:nth-child(4) {
+    background: #000;
+    color: #fff;
+}
+.bottomCont view image {
+    width: 40rpx;
+    height: 40rpx;
+    vertical-align: middle;
+}
+.bottomCont .car image {
+  width: 50rpx;
+  height: 50rpx;
+}

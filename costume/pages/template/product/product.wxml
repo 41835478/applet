@@ -1,0 +1,12 @@
+<template name="product">
+    <view class="productWrap">
+        <view class="proCont">
+            <view class="item_pro">
+                <image src="{{item.imgUrl}}"></image>
+                <text class="title">{{item.name}}</text>
+                <text class="price">￥{{item.price}}</text>
+                <text class="oriPrice">￥{{item.oriPrice}}</text>
+            </view>
+        </view>
+    </view>
+</template>

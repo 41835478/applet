@@ -1,0 +1,40 @@
+<scroll-view class="fillInOrder">
+    <view class="back_img"></view>
+    <view class="fillAddress">
+        <navigator url="/pages/pages/addressList/addressList">
+            <view class="title">请设置收货地址</view>
+            <view class="icon">
+                <image src="../../images/right.png"/>
+            </view>
+        </navigator>
+    </view>
+    <view class="proCont">
+        <view class="item">
+            <text>商品合计</text>
+            <text>￥68</text>
+        </view>
+        <view class="item">
+            <text>运费</text>
+            <text>￥8</text>
+        </view>
+    </view>
+    <navigator url="/pages/pages/productDetails/productDetails">
+        <view class="product">
+            <view class="item">
+                <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg"></image>
+            </view>
+            <view class="item">
+                <text>一米阳光潮流女装</text>
+                <text>￥68.0</text>
+            </view>
+            <view class="item num">x1</view>
+        </view>
+    </navigator>
+    <view class="fixed">
+        <view class="item">
+            <text>实付：</text>
+            <text class="red">￥75</text>
+        </view>
+        <view class="item">去下单</view>
+    </view>
+</scroll-view>

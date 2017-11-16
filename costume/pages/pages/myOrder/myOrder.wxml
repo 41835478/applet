@@ -1,0 +1,32 @@
+<import src="../../template/tips/tips.wxml"/>
+<scroll-view class="myOrder">
+    <view class="tabCont">
+        <view wx:for="{{tabList}}" class="item {{current==index?'tab_active':''}}" wx:key="index" bindtap="changeTab" data-id="{{index}}">{{item}}</view>
+    </view>
+    <view class="listCont {{current==0?'show':'hide'}}">
+        <view class="item_product" wx:for="{{orderList}}" wx:key="">
+            <view class="item">
+                <text class="orderno">订单编号：{{item.orderno}}</text>
+                <text class="red">{{item.status}}</text>
+            </view>
+            <view class="item large middle">
+                <view>
+                    <image src="{{item.imgUrls}}"></image>
+                </view>
+                <view>
+                    <text class="name">{{item.name}}</text>
+                    <text class="grey">￥{{item.price}}</text>
+                    <text class="grey">x{{item.num}}</text>
+                </view>
+            </view>
+            <view class="item large last">
+                <text class="grey">共1件商品 合计：￥75（含运费7元）</text>
+                <view class="btn">支付</view>
+            </view>
+        </view>
+    </view>
+    <view class="content {{current==1?'show':'hide'}}">已发货</view>
+    <view class="content {{current==2?'show':'hide'}}">待发货</view>
+    <view class="content {{current==3?'show':'hide'}}">全部订单</view>
+    <template is="tips"/>
+</scroll-view>

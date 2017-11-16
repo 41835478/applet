@@ -1,0 +1,38 @@
+.productWrap {
+    display: inline-flex;
+}
+.productWrap .proCont {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 334rpx;
+}
+.productWrap .proCont .item_pro {
+    height: 350rpx;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 20rpx;
+}
+
+.productWrap .proCont .item_pro image {
+    width: 100%;
+    height: 220rpx;
+}
+.productWrap .proCont .item_pro text {
+    padding-left: 20rpx;
+    font-size: 28rpx;
+    display: inline-flex;
+}
+.productWrap .proCont .item_pro .title {
+    margin: 20rpx 0 8rpx;
+    width: 90%;
+}
+.productWrap .proCont .item_pro .price {
+    color: #FF3126;
+    width: 14%;
+}
+.productWrap .proCont .item_pro .oriPrice {
+    color: #9b9b9b;
+    font-size: 24rpx;
+    text-decoration: line-through;
+}

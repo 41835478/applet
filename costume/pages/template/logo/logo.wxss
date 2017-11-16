@@ -1,0 +1,24 @@
+.bottom_logo {
+    height: 200rpx;
+    display: flex;
+    flex-direction: column;
+}
+.bottom_logo .logo {
+    width: 72rpx;
+    height: 72rpx;
+    background: #fff;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 50rpx;
+}
+.bottom_logo .logo image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.bottom_logo view:nth-child(2) {
+    color: #9b9b9b;
+    font-size: 28rpx;
+    margin-top: 20rpx;
+    text-align: center;
+}

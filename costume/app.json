@@ -1,0 +1,48 @@
+{
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/main.png",
+        "selectedIconPath": "pages/images/main_on.png"
+      },
+      {
+        "pagePath": "pages/pages/shopping/shopping",
+        "text": "购物车",
+        "iconPath": "pages/images/car.png",
+        "selectedIconPath": "pages/images/car_on.png"
+      },
+      {
+        "pagePath": "pages/pages/mine/mine",
+        "text": "我的",
+        "iconPath": "pages/images/mine.png",
+        "selectedIconPath": "pages/images/mine_on.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "pages": [
+    "pages/pages/index/index",
+    "pages/pages/shopping/shopping",
+    "pages/pages/projectDetails/projectDetails",
+    "pages/pages/mine/mine",
+    "pages/pages/productDetails/productDetails",
+    "pages/pages/fillInOrder/fillInOrder",
+    "pages/pages/feedback/feedback",
+    "pages/pages/myFavorite/myFavorite",
+    "pages/pages/myOrder/myOrder",
+    "pages/pages/aboutUs/aboutUs",
+    "pages/pages/addressList/addressList",
+    "pages/pages/editAddress/editAddress"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  }
+}

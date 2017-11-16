@@ -1,0 +1,15 @@
+<import src="../../template/tips/tips.wxml"/>
+<scroll-view class="myFavorite">
+    <navigator url="/pages/pages/productDetails/productDetails" wx:for="{{proList}}" wx:key="">
+        <view class="item_line">
+            <view>
+                <image src="{{item.imgUrl}}"/>
+            </view>
+            <view>
+                <text>{{item.name}}</text>
+                <text class="red">￥{{item.price}}</text>
+            </view>
+        </view>
+    </navigator>
+    <template is="tips"/>
+</scroll-view>

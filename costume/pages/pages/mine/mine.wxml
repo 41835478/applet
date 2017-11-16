@@ -1,0 +1,59 @@
+<import src="../../template/logo/logo.wxml"/>
+<scroll-view class="mineWrap">
+    <view class="bannerCont">
+        <image src="{{userInfo.avatarUrl}}"/>
+        <view>{{userInfo.nickName}}</view>
+    </view>
+    <!--我的订单-->
+    <navigator url="/pages/pages/myOrder/myOrder">
+        <view class="item_line mt20">
+            <view>
+                <image src="../../images/order.png"/>
+            </view>
+            <view>我的订单</view>
+            <view><image src="../../images/right.png"/></view>
+        </view>
+    </navigator>
+    <!--我的收藏-->
+    <navigator url="/pages/pages/myFavorite/myFavorite">
+        <view class="item_line">
+            <view>
+                <image src="../../images/heart.png"/>
+            </view>
+            <view>我的收藏</view>
+            <view><image src="../../images/right.png"/></view>
+        </view>
+    </navigator>
+    <!--收货地址管理-->
+    <navigator url="/pages/pages/addressList/addressList">
+        <view class="item_line">
+            <view>
+                <image src="../../images/air.png"/>
+            </view>
+            <view>收货地址管理</view>
+            <view><image src="../../images/right.png"/></view>
+        </view>
+    </navigator>
+    <!--用户反馈-->
+    <navigator url="/pages/pages/feedback/feedback">
+    <view class="item_line mt20">
+        <view>
+            <image src="../../images/notice.png"/>
+        </view>
+        <view>用户反馈</view>
+        <view><image src="../../images/right.png"/></view>
+    </view>
+    </navigator>
+    <!--关于我们-->
+    <navigator url="/pages/pages/aboutUs/aboutUs">
+        <view class="item_line">
+            <view>
+                <image src="../../images/phone.png"/>
+            </view>
+            <view>关于我们</view>
+            <view><image src="../../images/right.png"/></view>
+        </view>
+    </navigator>
+    <!--底部logo-->
+    <template is="logo"/>
+</scroll-view>

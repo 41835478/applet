@@ -1,0 +1,41 @@
+<import src="../../template/banner/banner.wxml"/>
+<import src="../../template/product/product.wxml"/>
+<scroll-view class="mainWrap">
+    <swiper indicator-dots="{{indicatorDots}}"
+            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}" wx:key="">
+            <navigator url="/pages/pages/projectDetails/projectDetails">
+                <template is="banner" data="{{item}}"/>
+            </navigator>
+        </block>
+    </swiper>
+    <view class="sort">
+        <view wx:for="{{sortList}}" class="item {{currentItem==item.id?'active_pro':''}}" wx:key="id" bindtap="order"
+              data-id="{{item.id}}">{{item.name}}
+        </view>
+    </view>
+    <view class="subTitle">
+        <text class="line"></text>
+        <text class="word">精心挑选</text>
+        <text class="line"></text>
+    </view>
+    <view class="proList">
+        <block wx:for="{{proList}}" wx:key="">
+            <navigator url="/pages/pages/productDetails/productDetails">
+                <template is="product" data="{{item}}"/>
+            </navigator>
+        </block>
+    </view>
+    <view class="productCont">
+        <navigator url="/pages/pages/productDetails/productDetails">
+            <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"/>
+            <text>一米阳光潮流女装</text>
+            <view>
+                <text class="red">69.0元 </text>
+                <text class="grey">￥169</text>
+            </view>
+        </navigator>
+    </view>
+
+    <view class="tips">没有更多内容了</view>
+</scroll-view>

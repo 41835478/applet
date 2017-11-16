@@ -1,0 +1,47 @@
+.addressList .item_line{
+  height: 120rpx;
+  background: #fff;
+  padding: 20rpx 0 0 30rpx;
+  border-bottom: 1px solid #EDECF1;
+  display: flex;
+}
+.addressList .item_line view {
+  display: inline-flex;
+  flex: 1;
+}
+.addressList .item_line view image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 30rpx;
+}
+.addressList .item_line view:nth-child(1) text {
+  border: 1px solid #CE5554;
+  font-size: 26rpx;
+  color: #CE5554;
+  text-align: right;
+  height: 36rpx;
+  border-radius: 4rpx;
+}
+.addressList .item_line view:nth-child(2) {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+}
+.addressList .item_line view:nth-child(2) text {
+  height: 50%;
+  flex: 1;
+  overflow: hidden;
+}
+.addressList .item_line view:nth-child(2) .second {
+  color: #888888;
+  font-size: 34rpx;
+}
+.addressList button {
+  width: 94%;
+  margin: 0 auto;
+  position: fixed;
+  left: 3%;
+  bottom: 20rpx;
+  background: #fff !important;
+}

@@ -1,0 +1,33 @@
+<import src="../../template/banner/banner.wxml"/>
+<scroll-view class="productDetails">
+    <view class="bannerCont">
+        <swiper indicator-dots="{{indicatorDots}}"
+                autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <block wx:for="{{imgUrls}}" wx:key="">
+                <template is="banner" data="{{item}}"/>
+            </block>
+        </swiper>
+    </view>
+    <view class="priceCont">
+        <view class="title">城市度假休闲搭配唯美裙</view>
+        <view class="price">￥128.0</view>
+    </view>
+    <view class="describe">
+        <view class="title">商品详情</view>
+        <view class="content">商品详情描述</view>
+    </view>
+</scroll-view>
+<view class="bottomCont">
+    <view class="car">
+        <navigator url="/pages/pages/shopping/shopping" open-type="switchTab">
+            <image src="../../images/car_on.png"/>
+        </navigator>
+    </view>
+    <view class="collect">
+        <image src="../../images/heart.png"/>
+    </view>
+    <view class="addCar">加入购物车</view>
+    <view class="buy">
+        <navigator url="/pages/pages/fillInOrder/fillInOrder">立即购买</navigator>
+    </view>
+</view>

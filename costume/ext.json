@@ -1,0 +1,72 @@
+{
+"extEnable": true,
+  "extAppid": "wxa144a8a9ad30ced4",
+  "ext": {
+    "name": "首页",
+    "attr": {
+      "host": "http://www.baidu.com",
+      "users": [
+        "user_1",
+        "user_2"
+      ]
+    }
+  },
+  "extPages": {
+    "pages/pages/shopping/shopping": {
+      "navigationBarTitleText": "购物车"
+    },
+    "pages/pages/fillInOrder/fillInOrder": {
+      "navigationBarTitleText": "填写订单"
+    },
+    "pages/pages/feedback/feedback": {
+      "navigationBarTitleText": "用户反馈"
+    },
+    "pages/pages/myFavorite/myFavorite": {
+      "navigationBarTitleText": "我的收藏"
+    },
+    "pages/pages/myOrder/myOrder": {
+      "navigationBarTitleText": "我的订单"
+    },
+    "pages/pages/aboutUs/aboutUs": {
+      "navigationBarTitleText": "关于我们"
+    },
+    "pages/pages/addressList/addressList": {
+      "navigationBarTitleText": "收货地址"
+    },
+    "pages/pages/editAddress/editAddress": {
+      "navigationBarTitleText": "修改收货地址"
+    }
+  },
+  "tabBar": {
+    "selectedColor":"black",
+    "list": [
+      {"pagePath":"pages/pages/index/index","text":"精选","iconPath":"pages/images/main.png","selectedIconPath":"pages/images/main_on.png"},
+      {"pagePath":"pages/pages/shopping/shopping","text":"购物车","iconPath":"pages/images/car.png","selectedIconPath":"pages/images/car_on.png"},
+      {"pagePath":"pages/pages/mine/mine","text":"个人中心","iconPath":"pages/images/mine.png","selectedIconPath":"pages/images/mine_on.png"}
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "pages":[
+    "pages/pages/index/index",
+    "pages/pages/shopping/shopping",
+    "pages/pages/projectDetails/projectDetails",
+    "pages/pages/mine/mine",
+    "pages/pages/productDetails/productDetails",
+    "pages/pages/fillInOrder/fillInOrder",
+    "pages/pages/feedback/feedback",
+    "pages/pages/myFavorite/myFavorite",
+    "pages/pages/myOrder/myOrder",
+    "pages/pages/aboutUs/aboutUs",
+    "pages/pages/addressList/addressList",
+    "pages/pages/editAddress/editAddress"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "服饰美妆xx",
+    "navigationBarTextStyle":"white"
+  }
+}

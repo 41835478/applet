@@ -1,0 +1,31 @@
+.projectDetails .project {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+.projectDetails .project .title {
+  padding-top: 20rpx;
+  line-height: 36rpx;
+  text-align: center;
+}
+.projectDetails .project .content {
+  color: #9b9b9b;
+  width: 100%;
+  min-height: 60rpx;
+  padding: 30rpx;
+  font-size: 28rpx;
+}
+.projectDetails .bannerNew {
+  padding: 0;
+  height: 320rpx;
+}
+.projectDetails .proList {
+  background: #F2F2F2;
+  padding: 20rpx 30rpx;
+}
+.projectDetails .proList navigator {
+  display: inline-flex;
+}
+.projectDetails .proList navigator:nth-child(even) {
+  margin-left: 20rpx;
+}

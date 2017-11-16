@@ -1,0 +1,76 @@
+.shopping .item_line {
+  height: 120rpx;
+  background: #fff;
+  padding: 20rpx;
+}
+.shopping .item_line .pro_item {
+  width: 100rpx;
+  height: 104rpx;
+  margin: 8rpx 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.shopping .item_line .pro_item:nth-child(2) image {
+  width: 104rpx;
+  height: 104rpx;
+}
+.shopping .item_line .pro_item:nth-child(3) {
+  width: 380rpx;
+  height: 100rpx;
+  margin: 10rpx 0;
+}
+.shopping .item_line .pro_item:nth-child(4) {
+  width: 120rpx;
+  height: 50rpx;
+  vertical-align: bottom;
+}
+.shopping .item_line .pro_item .title {
+  padding: 10rpx 0 0 20rpx;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.shopping .item_line .pro_item .price {
+  font-size: 30rpx;
+  color: #9b9b9b;
+}
+.shopping .item_line .pro_item .num {
+  display: inline-block;
+  width: 40rpx;
+  height: 48rpx;
+  background: #f2f2f2;
+  vertical-align: middle;
+  text-align: center;
+  line-height:48rpx;
+}
+.shopping .item_line .pro_item .num:nth-child(2) {
+  background: #fff;
+  font-size: 30rpx;
+}
+.shopping .item_line .pro_item icon {
+  margin: 32rpx 24rpx;
+}
+.buyCont {
+  width: 100%;
+  height: 100rpx;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+}
+.buyCont view {
+  flex: 2.4;
+  text-align: right;
+  line-height: 100rpx;
+  color: #D85755;
+  padding-right: 20rpx;
+}
+.buyCont view:nth-child(2) {
+  background: #000;
+  color: #fff;
+  flex: 1;
+  text-align: center;
+  padding: 0;
+}

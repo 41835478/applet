@@ -1,0 +1,26 @@
+<!--shopping.wxml-->
+<scroll-view class="shopping">
+  <view class="item_line">
+    <view class="pro_item">
+      <icon type="success" size="20" color="red"/>
+    </view>
+    <view class="pro_item">
+      <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg"></image>
+    </view>
+    <view class="pro_item">
+      <view class="title">一米阳光潮流女装</view>
+      <view class="title price">￥168</view>
+    </view>
+    <view class="pro_item">
+      <view class="num">-</view>
+      <view class="num">1</view>
+      <view class="num">+</view>
+    </view>
+  </view>
+</scroll-view>
+<view class="buyCont">
+  <view>￥58</view>
+  <view>
+    <navigator url="/pages/pages/fillInOrder/fillInOrder">购买</navigator>
+  </view>
+</view>

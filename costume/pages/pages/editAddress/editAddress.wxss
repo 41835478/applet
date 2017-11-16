@@ -1,0 +1,30 @@
+@import '../../template/cascade/cascade.wxss';
+.editWrap .edit_item {
+  padding: 0 30rpx;
+  background: #fff;
+}
+.editWrap .edit_item view {
+  border-bottom: 1px solid #EDECF1;
+}
+.editWrap .edit_item input {
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.editWrap .choose {
+  height: 120rpx;
+  line-height: 120rpx;
+  padding-left: 30rpx;
+  background: #fff;
+}
+.editWrap .choose image {
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+}
+.editWrap .submit {
+  width: 94%;
+  margin: 0 auto;
+  position: fixed;
+  left: 3%;
+  bottom: 20rpx;
+}

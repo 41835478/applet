@@ -1,0 +1,6 @@
+<template name="search">
+    <view class="search">
+        <input type="text" placeholder="搜索商品"/>
+        <icon type="search" size="10" bindtap="goSearch"/>
+    </view>
+</template>

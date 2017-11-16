@@ -1,0 +1,96 @@
+.fillInOrder .fillAddress {
+    height: 160rpx;
+    line-height: 160rpx;
+    background: #fff;
+}
+.fillInOrder .fillAddress navigator {
+    height: 100%;
+    display: flex;
+    padding: 0 20rpx;
+}
+.fillInOrder .fillAddress view {
+    display: inline-flex;
+    flex: 1;
+}
+.fillInOrder .fillAddress .title {
+    flex: 27;
+}
+.fillInOrder .fillAddress .icon {
+    color: #9b9b9b;
+    font-weight: bold;
+}
+.fillInOrder .fillAddress .icon image {
+    width: 40rpx;
+    height: 40rpx;
+    margin: 60rpx 0;
+}
+.fillInOrder .proCont {
+    display: flex;
+    height: 180rpx;
+    background: #fff;
+    margin: 20rpx 0;
+    padding-left: 30rpx;
+    flex-direction: column;
+}
+.fillInOrder .proCont .item {
+    height: 50%;
+    line-height: 90rpx;
+    display: flex;
+}
+.fillInOrder .proCont .item:nth-child(1) {
+    border-bottom: 2px solid #f2f2f2;
+}
+.fillInOrder .proCont .item text {
+    flex: 1;
+}
+.fillInOrder .proCont .item text:nth-child(2) {
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 30rpx;
+}
+.fillInOrder .product {
+    height: 100rpx;
+    background: #fff;
+    padding: 30rpx;
+    display: flex;
+}
+.fillInOrder .product .item {
+    flex: 1;
+}
+.fillInOrder .product .item:nth-child(1) {
+    flex: 1.4;
+}
+.fillInOrder .product .item:nth-child(2) {
+    flex: 6.6;
+}
+.fillInOrder .product .item image {
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 8rpx;
+    -moz-border-radius: 8rpx;
+    border-radius: 8rpx;
+}
+.fillInOrder .product .item text {
+    display: block;
+    padding-left: 20rpx;
+    font-size: 32rpx;
+}
+.fillInOrder .product .item text:nth-child(2) {
+    color: #C4C4C4;
+}
+.fillInOrder .product .num {
+    text-align: right;
+}
+.fixed .item {
+    flex: 1;
+    line-height: 100rpx;
+}
+.fixed .item:nth-child(1) {
+    flex: 1.7;
+    padding-left: 30rpx;
+}
+.fixed .item:nth-child(2) {
+    background: #000;
+    color: #fff;
+    text-align: center;
+}

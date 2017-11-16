@@ -1,0 +1,8 @@
+<import src="../../template/logo/logo.wxml"/>
+<scroll-view class="feedback">
+    <form bindsubmit="bindFormSubmit">
+        <textarea placeholder="请输入您的宝贵建议，限500字" name="textarea"/>
+        <button form-type="submit" type="warn"> 提交</button>
+    </form>
+    <template is="logo"/>
+</scroll-view>

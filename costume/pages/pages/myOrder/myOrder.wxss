@@ -1,0 +1,91 @@
+.myOrder .tabCont {
+  width: 100%;
+  height: 90rpx;
+  background-color: #fff;
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+.myOrder .tabCont .item {
+  flex: 1;
+  text-align: center;
+  line-height: 90rpx;
+  font-size: 30rpx;
+  color: #6E6E6E;
+}
+.myOrder .tabCont .tab_active {
+  flex: 1;
+  color: #000;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
+.myOrder .item_product {
+  height: 400rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.myOrder .item_product:first-child {
+  margin-top: 100rpx;
+}
+.myOrder .item_product .item {
+  flex: 1;
+  font-size: 28rpx;
+  display: flex;
+  border-bottom: 1px solid #f2f2f2;
+  flex-direction: row;
+  padding: 0 30rpx;
+  align-items:center;
+}
+.myOrder .item_product .item text {
+  flex: 1;
+  text-align: right;
+  color: #555555;
+}
+.myOrder .item_product .item .orderno {
+  flex: 2;
+  text-align: left;
+}
+.myOrder .item_product .large {
+  flex: 2;
+  padding: 30rpx;
+}
+.myOrder .item_product .large view{
+  flex: 1;
+  height: 100%;
+}
+.myOrder .item_product .middle view:nth-child(2){
+  flex: 5;
+}
+.myOrder .item_product .large view image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8rpx;
+}
+.myOrder .item_product .large view text{
+  display: flex;
+  padding-left: 30rpx;
+}
+.myOrder .item_product .large view .name {
+  margin: 10rpx 0;
+}
+.myOrder .item_product .last {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.myOrder .item_product .last .btn {
+  border:1px solid #C85250;
+  color:#C85250;
+  width:140rpx;
+  height:40rpx;
+  text-align:center;
+  line-height:50rpx;
+  border-radius:8rpx;
+}
+.myOrder .content {
+  margin-top: 100rpx;
+  line-height: 30rpx;
+}

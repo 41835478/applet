@@ -1,0 +1,29 @@
+<import src="../../template/cascade/cascade.wxml"/>
+<scroll-view class="editWrap">
+    <view class="edit_item">
+        <view><input type="text" placeholder="联系人姓名"/></view>
+    </view>
+    <view class="edit_item">
+        <view><input type="text" placeholder="联系电话"/></view>
+    </view>
+    <view class="edit_item">
+        <!--<view bindtap="choosearea" style="height: 45px;line-height: 45px;">
+            {{address}}
+        </view>-->
+        <view class="form-item-bd" bindtap="showDistpicker" style="height: 45px;line-height: 45px;">
+            <view class="input {{!provinceName[provinceSelIndex] ? 'input-placeholder' : ''}}">
+                <block wx:if="{{provinceName[provinceSelIndex]}}">{{add}}</block>
+                <block wx:else>请选择所在地区</block>
+            </view>
+        </view>
+    </view>
+    <view class="edit_item">
+        <view><input type="text" placeholder="详细地址，如街道、楼牌号"/></view>
+    </view>
+    <view class="choose">
+        <image src="../../images/cicle.png"/>
+        <text>设为默认地址</text>
+    </view>
+    <template is="address" data="{{showDistpicker,showMessage,provinceName,cityName,districtName}}"/>
+    <button type="warn" plain="true" class="submit">保存</button>
+</scroll-view>

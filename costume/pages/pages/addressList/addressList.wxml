@@ -1,0 +1,55 @@
+<scroll-view class="addressList">
+    <view class="back_img"></view>
+    <view class="item_line">
+      <view>
+          <text>默认</text>
+      </view>
+      <view>
+          <text>小明  18741526325</text>
+          <text class="second">北京的减肥的减肥了就敦伦尽分离得近了的加法离得近法律手段简历放吉林大街法律手段积分十几分了就得萨菲罗斯就发了就老司机分离啥附近啥里记得是垃圾分类是放假了啥饭了惊世毒妃看见是发了就老司机福利费记录是极乐世界分离啥就发了</text>
+      </view>
+      <view>
+          <image src="../../images/pencil.png"/>
+      </view>
+    </view>
+    <view class="item_line">
+        <view style="display: none">
+            <text>默认</text>
+        </view>
+        <view>
+            <text>小王  18741526325</text>
+            <text class="second">上海市闵行区漕宝路静安新城7区18号阿玛尼总部2楼</text>
+        </view>
+        <view>
+            <image src="../../images/pencil.png"/>
+        </view>
+    </view>
+    <view class="item_line">
+        <view>
+            <text>默认</text>
+        </view>
+        <view>
+            <text>小明  18741526325</text>
+            <text class="second">北京的减肥的减肥了就敦伦尽分离得近了的加法离得近法律手段简历放吉林大街法律手段积分十几分了就得萨菲罗斯就发了就老司机分离啥附近啥里记得是垃圾分类是放假了啥饭了惊世毒妃看见是发了就老司机福利费记录是极乐世界分离啥就发了</text>
+        </view>
+        <view>
+            <image src="../../images/pencil.png"/>
+        </view>
+    </view>
+    <view class="item_line">
+        <view>
+            <text>默认</text>
+        </view>
+        <view>
+            <text>小王  18741526325</text>
+            <text class="second">上海市闵行区漕宝路静安新城7区18号阿玛尼总部2楼</text>
+        </view>
+        <view>
+            <image src="../../images/pencil.png"/>
+        </view>
+    </view>
+
+    <navigator url="/pages/pages/editAddress/editAddress">
+        <button type="warn" plain="true">+新增收货地址</button>
+    </navigator>
+</scroll-view>

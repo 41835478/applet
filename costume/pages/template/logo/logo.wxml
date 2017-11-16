@@ -1,0 +1,10 @@
+<template name="logo">
+    <view class="bottom_logo">
+        <view class="logo">
+            <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg"/>
+        </view>
+        <view>
+            <text>综合小电商提供技术支持</text>
+        </view>
+    </view>
+</template>
